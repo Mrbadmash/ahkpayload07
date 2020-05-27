@@ -1,7 +1,7 @@
 #!/usr/bin/python3 env
 
-# Cooded By : lovehacker
-# Youtube   : BlackMafia
+# Cooded By : Ijaz Afridi
+# Youtube   : Mrbadmash
 
 
 import os
@@ -22,7 +22,7 @@ def output_pld (output):
 		print (cyan+"\nGo there And do Whatever You  want  To\ndo With it\n\n")
 		print ("\n\n	\033[1;36m[\033[1;34m1\033[1;36m]  \033[1;36m Back")
 		print ("	\033[1;36m[\033[1;34m2\033[1;36m]  \033[1;36m Exit")
-		back_opt = int (input ("\n\n\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~  \033[1;36m"))
+		back_opt = int (input ("\n\n\033[1;34mAHK   \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~  \033[1;36m"))
 		if back_opt == 2:
 			back.exite ()
 		else:
@@ -40,7 +40,7 @@ def Android ():
 \033[1;36m[\033[1;34m3\033[1;36m]\033[1;34m--->> \033[1;36m android/meterpreter/reverse_https
 \033[1;36m[\033[1;34m4\033[1;36m]\033[1;34m--->> \033[1;36m Exit
 
-\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~  \033[1;36m"""))
+\033[inputAHK   \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~  \033[1;36m"""))
 
 	if android_pld < 4:
 		payloads = "android/meterpreter/"+type[android_pld-1]
@@ -59,7 +59,7 @@ def Android ():
 		try:
 			raise ValueError
 		except ValueError:
-			print ("\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~"+cyan+"  Plz Retry and Enter number from given options."+norml)
+			print ("\033[1;34mAHK   \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~"+cyan+"  Plz Retry and Enter number from given options."+norml)
 			Android ()
 
 
@@ -71,7 +71,7 @@ def Windows ():
 \033[1;36m[\033[1;34m3\033[1;36m]\033[1;34m--->> \033[1;36m  windows/meterpreter/reverse_https
 \033[1;36m[\033[1;34m4\033[1;36m]\033[1;34m--->> \033[1;36m Exit
 
-\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m••\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~  \033[1;36m"""))
+\033[1;34mAHK   \033[1;30m~~\033[1;35m|\033[1;34m••\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~  \033[1;36m"""))
 
 	if windows_pld < 4:
 		payloads = "windows/meterpreter/"+type[windows_pld-1]
@@ -102,7 +102,7 @@ def Linux ():
 \033[1;36m[\033[1;34m3\033[1;36m]\033[1;34m--->> \033[1;36m  linux/x86/shell/reverse_https
 \033[1;36m[\033[1;34m4\033[1;36m]\033[1;34m--->> \033[1;36m Exit
 
-\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~  \033[1;36m"""))
+\033[1;34mAHK   \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~  \033[1;36m"""))
 
 	if linux_pld < 4:
 		payloads = "linux/x86/shell/"+type[linux_pld-1]
@@ -134,7 +134,7 @@ def Python ():
 \033[1;36m[\033[1;34m3\033[1;36m]\033[1;34m--->> \033[1;36m  python/meterpreter/reverse_https
 \033[1;36m[\033[1;34m4\033[1;36m]\033[1;34m--->> \033[1;36m Exit
 
-\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~  \033[1;36m"""))
+\033[1;34mAHK   \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~  \033[1;36m"""))
 
 	if python_pld < 4:
 		payloads = "python/meterpreter/"+type[python_pld-1]
@@ -207,8 +207,8 @@ if __name__ == "__main__":
 		time.sleep (3)
 		exit ()
 	except KeyboardInterrupt:
-		print ("\n\n\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~"+cyan+"  By By"+norml)
+		print ("\n\n\033[1;34mAHK   \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~"+cyan+"  By By"+norml)
 	except ValueError:
-		print ("\n\n\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~"+cyan+"  Plz Retry and Enter number from given options."+norml)
+		print ("\n\n\033[1;34mAHK   \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~"+cyan+"  Plz Retry and Enter number from given options."+norml)
 	except TypeError:
 		print(" Wrong input")
