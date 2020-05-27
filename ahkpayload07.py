@@ -9,10 +9,10 @@ import pld_types as plds
 
 
 
-# Cooded By : lovehacker
-# Youtube   : https://youtube.com/c/BlackMafia
-# Github    : https://github.com/lovehacker404
-# Instagram : BlackMafia
+# Cooded By : Ijaz Afridi
+# Fb Page   : https://www.facebook.com/Cyber.Expert302/
+# Github    : https://github.com/Mrbadmash
+# Instagram : mrijazofficial1
 
 
 
@@ -32,10 +32,10 @@ os.system ("clear")
 def finaly ():
 	print (c+"\033[1;34m __________________________________")
 	print (c+"|                                  |")
-	print (c+"| \033[1;36mCooded By \033[1;34m :----->>   \033[1;31m lovehacker   \033[1;34m|")
-	print (c+"| \033[1;36mYoutube   \033[1;34m :----->>   \033[1;31m BlackMafia \033[1;34m|")
-	print (c+"| \033[1;36mInsagram  \033[1;34m :----->>   \033[1;31m BlackMafia \033[1;34m|")
-	print (c+"| \033[1;36mGitHub    \033[1;34m :----->>   \033[1;31m lovehacker404 \033[1;34m|")
+	print (c+"| \033[1;36mCooded By \033[1;34m :----->>   \033[1;31m Ijaz Afridi     \033[1;34m|")
+	print (c+"| \033[1;36mYoutube   \033[1;34m :----->>   \033[1;31m Mr Badmash      \033[1;34m|")
+	print (c+"| \033[1;36mInsagram  \033[1;34m :----->>   \033[1;31m mrijazofficial1 \033[1;34m|")
+	print (c+"| \033[1;36mGitHub    \033[1;34m :----->>   \033[1;31m Mrbadmash       \033[1;34m|")
 	print (c+"|__________________________________|")
 
 # colors.
@@ -51,16 +51,16 @@ def banner ():
 	print (c+fore3+"     o        o       o            o")
 	print (c+fore3+"      o      o          o        o")
 	print (c+fore3+"       0 ■■ 0             0 ■■ 0")
-	print (c+fore3+"       ■■■■■■ BlackMafia  ■■■■■■")
+	print (c+fore3+"       ■■■■■■ Mrbadmash  ■■■■■■")
 	print (c+fore3+"      ■■"+fore1+"▣"+fore3+"■■"+fore1+"▣"+fore3+"■■           ■■"+fore2+"◉"+fore3+"■■"+fore2+"◉"+fore3+"■■")
 	print (c+fore3+"     ■■■■■■■■■■         ■■■■■■■■■■")
 	print (c+fore3+"  ■■ ■■■■■■■■■■ ■■   ■■ ■■■■■■■■■■ ■■")
 	print (c+fore3+"  ■■ ■■■■■■■■■■  ■■ ■■  ■■■■■■■■■■ ■■")
 	print (c+fore3+"  ■■ ■■■■■■■■■■   ■■■   ■■■■■■■■■■ ■■")
 	print (c+fore3+"     ■■■■■■■■■■         ■■■■■■■■■■")
-	print (c+fore3+"       ■■  ■■ lovehacker  ■■  ■■")
-	print (c+fore3+"       ■■  ■■ 03094161457 ■■  ■■")
-	print (c+fore3+"        \033[1;47m   \033[1;34mBlack \033[1;30m♡\033[1;35m|\033[1;34m☆\033[1;35m|\033[1;30m♡ \033[1;34mMafia   \033[1;0m     ")
+	print (c+fore3+"       ■■  ■■ IjazAfridi  ■■  ■■")
+	print (c+fore3+"       ■■  ■■ 03489153973 ■■  ■■")
+	print (c+fore3+"        \033[1;47m   \033[1;34mAHK   \033[1;30m♡\033[1;35m|\033[1;34m☆\033[1;35m|\033[1;30m♡ \033[1;34mHACKER   \033[1;0m     ")
 	print (c+fore3+"            ╭━━━━━━━◢◤━━━━╮")
 	print (c+fore3+"            ┃┏┓┏━━┳◢◤┳┓╱╱╱┃")
 	print (c+fore3+"            ┃┃┣┫╱╱◢◤╱╱┣━━━┃")
@@ -93,19 +93,19 @@ def Check_requirments ():
 
 # Available options.
 def chose_opt ():
-	print ("\033[1;34mBlack \033[1;35m|\033[1;34m••\033[1;35m| \033[1;34mMafia\033[1;31m/~"+cyan+" Choose Your Payload\n")
+	print ("\033[1;34mAHK   \033[1;35m|\033[1;34m••\033[1;35m| \033[1;34mHACKER\033[1;31m/~"+cyan+" Choose Your Payload\n")
 	time.sleep (0.5)
 	pld_list = ["Android" ,"Windows", "Linux", "Mac","Python","Bash", "Perl","Exit"]
 	for pld in pld_list:
 		time.sleep (0.1)
 		print (cyan+"	["+blue,pld_list.index (pld)+1,cyan+"]   "+pld)
 	print(" \n ")
-	pld_type = int (input ("\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~  \033[1;36m"))
+	pld_type = int (input ("\033[1;34mAHK   \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~  \033[1;36m"))
 	if pld_type > 8:
 		try:
 			raise ValueError
 		except ValueError:
-			print ("\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~"+cyan+"  Plz Retry Enter number from given options."+norml)
+			print ("\033[1;34mAHK   \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~"+cyan+"  Plz Retry Enter number from given options."+norml)
 			time.sleep(3)
 			exit (0)
 
@@ -118,7 +118,7 @@ def chose_opt ():
 def exite ():
 	time.sleep (1.2)
 	banner()
-	print ("\n\n\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~"+cyan+"  God By BlackMafia Tool.\n\n")
+	print ("\n\n\033[1;34mAHK   \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~"+cyan+"  God By AHKHACKER Tool.\n\n")
 	exit (0)
 
 
@@ -136,7 +136,7 @@ if __name__ == "__main__":
 	except KeyboardInterrupt:
 		exite ()
 	except ValueError:
-		print ("\033[1;34mBlack \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mMafia\033[1;31m/~"+cyan+"  Plz Retry Enter number from given options."+norml)
+		print ("\033[1;34mAHK   \033[1;30m~~\033[1;35m|\033[1;34m●\033[1;35m|\033[1;30m~~ \033[1;34mHACKER\033[1;31m/~"+cyan+"  Plz Retry Enter number from given options."+norml)
 		time.sleep()
 		exit (0)
 	except EOFError:
